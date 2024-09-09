@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown Timer</title>
+    <title>Countdown to 7:15 PM</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="countdown">
-        <h1>Countdown to 7.15 PM</h1>
-        <p id="message">This much time left until you get the results:</p>
-        <article id="timer">
-            <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
-        </article>
-    </section>
+    <main>
+        <section class="countdown-7pm">
+            <header>
+                <h1>Countdown to 7:15 PM</h1>
+                <p id="message-7pm">This much time left until you get the results:</p>
+            </header>
+            <article id="timer-7pm">
+                <time datetime="PT0H0M0S">
+                    <span id="hours-7pm">00</span>:<span id="minutes-7pm">00</span>:<span id="seconds-7pm">00</span>
+                </time>
+            </article>
+            <p class="return-home">
+                <a href="timer.html">Return to timer</a>
+            </p>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>

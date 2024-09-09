@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="interactive-timer">
+            <header>
+                <h1>Interactive Countdown Timer</h1>
+                <p id="message-interactive">This much time left until the timer finishes:</p>
+            </header>
+            <article id="timer-interactive">
+                <time datetime="PT0H0M0S">
+                    <span id="hours-interactive">00</span>:<span id="minutes-interactive">00</span>:<span id="seconds-interactive">00</span>
+                </time>
+            </article>
+
+            <!-- Number buttons to set time -->
+            <div class="number-buttons">
+                <button class="number" data-value="1">1</button>
+                <button class="number" data-value="2">2</button>
+                <button class="number" data-value="3">3</button>
+                <button class="number" data-value="4">4</button>
+                <button class="number" data-value="5">5</button>
+                <button class="number" data-value="6">6</button>
+                <button class="number" data-value="7">7</button>
+                <button class="number" data-value="8">8</button>
+                <button class="number" data-value="9">9</button>
+                <button class="number" data-value="0">0</button>
+            </div>
+
+            <!-- Control buttons -->
+            <div class="controls">
+                <button id="startBtn-interactive">Start</button>
+                <button id="pauseBtn-interactive">Pause</button>
+                <button id="resetBtn-interactive">Reset</button>
+            </div>
+
+            <!-- Progress bar -->
+            <div class="progress-bar">
+                <div class="progress" id="progress-interactive"></div>
+            </div>
+
+            <p class="return-home">
+                <a href="index.html">Return to countdown</a>
+            </p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
