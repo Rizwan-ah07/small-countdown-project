@@ -3,7 +3,7 @@ function countdownTo7PM() {
     const target = new Date();
 
 
-    target.setHours(18, 15, 0, 0); 
+    target.setHours(19, 15, 0, 0); 
 
 
     if (now.getTime() >= target.getTime()) {
